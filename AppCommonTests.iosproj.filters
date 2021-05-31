@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pods">
+      <UniqueIdentifier>{b53581b8-f588-47d1-a4fe-ba2914951177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{8ff63f74-4554-4656-925a-71c4d25112b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppCommonTests">
+      <UniqueIdentifier>{0d9bcced-568c-4fa5-9364-fd83e5bffbcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <InfoPlist Include="AppCommonTests\Info.plist">
+      <Filter>Tests\AppCommonTests</Filter>
+    </InfoPlist>
+    <None Include="Pods\Target Support Files\Pods-AppCommonTests\Pods-AppCommonTests.debug.xcconfig">
+      <Filter>Pods</Filter>
+    </None>
+    <None Include="Pods\Target Support Files\Pods-AppCommonTests\Pods-AppCommonTests.release.xcconfig">
+      <Filter>Pods</Filter>
+    </None>
+    <PBXCompile Include="AppCommonTests\AppCommonTests.swift">
+      <Filter>Tests\AppCommonTests</Filter>
+    </PBXCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{E76D29AF-BCE0-4678-A8E5-5CC59823B901}</ProjectGuid>
+    <PbxprojDirectory>AppUITests.xcodeproj</PbxprojDirectory>
+    <TARGET_NAME>AppUITests</TARGET_NAME>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <iOSConfigurationType>Other</iOSConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.AppUITests</PRODUCT_BUNDLE_IDENTIFIER>
+    <TEST_TARGET_NAME>App</TEST_TARGET_NAME>
+    <USES_XCTRUNNER>YES</USES_XCTRUNNER>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>AppUITests</TargetName>
+    <TargetExt>.xctest</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <InfoPlist Include="AppUITests\Info.plist" />
+    <PBXCompile Include="AppUITests\AppUITests.swift" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="App.iosproj">
+      <Project>{3584c51a-fccb-4797-89ba-92a0140f19a7}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <pbxproj Include="AppUITests.xcodeproj\project.pbxproj" />
+  </ItemGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

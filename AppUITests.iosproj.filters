@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{51815310-f5cb-4413-af4f-d467d84e9c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppUITests">
+      <UniqueIdentifier>{b5fdb891-c629-477b-a058-72742c465f48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <InfoPlist Include="AppUITests\Info.plist">
+      <Filter>Tests\AppUITests</Filter>
+    </InfoPlist>
+    <PBXCompile Include="AppUITests\AppUITests.swift">
+      <Filter>Tests\AppUITests</Filter>
+    </PBXCompile>
+  </ItemGroup>
+</Project>

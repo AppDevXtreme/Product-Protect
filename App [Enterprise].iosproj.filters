@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{97bd39c1-6065-442d-9c01-6728c435ca17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Assets.xcassets">
+      <UniqueIdentifier>{5b009458-1725-475d-a1dd-268f298553e4}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{80fed928-8236-40bd-afe4-2f2c57fc4b2f}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\disclosureIndicator.imageset">
+      <UniqueIdentifier>{fe094057-99a7-4db4-802d-937897d466f5}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\disclosureIndicator.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\iconAccount.imageset">
+      <UniqueIdentifier>{5ef5c90b-2426-4461-a200-5e6df86e2308}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\iconAccount.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\iconCross.imageset">
+      <UniqueIdentifier>{4ab529a9-dd64-4a43-9bef-a003ff32e7b7}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\iconCross.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\iconPin.imageset">
+      <UniqueIdentifier>{f1cab564-d7b7-4e6a-b73a-831b2e72be5e}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\iconPin.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\iconTick.imageset">
+      <UniqueIdentifier>{35282a71-fc57-43da-aee1-e60ca79aede4}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\iconTick.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\pin.imageset">
+      <UniqueIdentifier>{06b86b10-894c-4f07-8a4d-f68b40715c8b}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\pin.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Assets.xcassets\productProtectLogo.imageset">
+      <UniqueIdentifier>{9a47c356-1e47-46d8-9fc9-c67e0872f597}</UniqueIdentifier>
+      <Extensions>App\Assets.xcassets\productProtectLogo.imageset\*</Extensions>
+    </Filter>
+    <Filter Include="App\Classes">
+      <UniqueIdentifier>{7960a7e1-f966-431c-9b27-1bd4fc71ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Common">
+      <UniqueIdentifier>{ed0bc97d-dd35-4f28-985c-94b00e864fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Common\Extensions">
+      <UniqueIdentifier>{0324c171-c463-4746-91c0-0244bccf27f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Common\Utils">
+      <UniqueIdentifier>{0a7b36f3-a5fd-41fd-88f7-37af391943c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Common\Views">
+      <UniqueIdentifier>{bf3b880b-14e9-4040-b562-f8134d07808b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Common\Wireframes">
+      <UniqueIdentifier>{8560468b-067e-49ab-9d21-ad731e7a15fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules">
+      <UniqueIdentifier>{1ba32aba-4d69-46e5-89aa-6da334986036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Account">
+      <UniqueIdentifier>{5eb4c6c5-d1ac-43b7-8aec-4e677c057f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\AccountSettingsList">
+      <UniqueIdentifier>{1220684a-e69d-497a-ab96-0052bab2863e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\AccountSettingsList\Interactor">
+      <UniqueIdentifier>{66ec27bc-3434-4a07-b54e-69af66e9e3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\AccountSettingsList\Presenter">
+      <UniqueIdentifier>{a7b9cfd1-db1e-43ec-afd2-9405055008f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\AccountSettingsList\View">
+      <UniqueIdentifier>{70101576-3203-4472-b29a-e19c342e385f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\AccountSettingsList\Wireframe">
+      <UniqueIdentifier>{7d50a9a2-d318-4a08-b133-f56f3a847a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Account\Presenter">
+      <UniqueIdentifier>{96279ef8-7b06-4d3d-8ddc-c50d70b227a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Account\View">
+      <UniqueIdentifier>{b65da18d-b1dc-4902-9ed8-6bd5ed166e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Account\Wireframe">
+      <UniqueIdentifier>{9ce8e244-cba1-4c87-95f7-c8f273dd77e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common">
+      <UniqueIdentifier>{cf21b622-aa05-4302-a39b-7d8a77245120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Base">
+      <UniqueIdentifier>{e9f601b1-d788-405a-b94d-d3b6972d4adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Base\View">
+      <UniqueIdentifier>{19a38fd6-a020-4811-8014-82e2ca3068fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Paging">
+      <UniqueIdentifier>{695c2bad-2873-42ee-887d-148b20e62ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Paging\Interactor">
+      <UniqueIdentifier>{c8bb97cd-9819-4f40-b066-c09cbaa29f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Paging\Presenter">
+      <UniqueIdentifier>{d3fefe2c-d2e4-4250-a5e6-750b846b0d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\Paging\View">
+      <UniqueIdentifier>{a7f5a058-a2fd-4bbb-85aa-343077f3b739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\SectionItem">
+      <UniqueIdentifier>{921a4604-60a7-491f-b9fb-aca738c72815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\SectionItem\Presenter">
+      <UniqueIdentifier>{c964e13d-97e5-484e-9943-31efd49516fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Common\SectionItem\View">
+      <UniqueIdentifier>{b2c7f072-66e1-4d8d-af9a-c653d180c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ContactUs">
+      <UniqueIdentifier>{e92d0201-d156-4b53-8724-7fc412cae518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ContactUs\Interactor">
+      <UniqueIdentifier>{96331ff8-453e-40a6-a67c-9283f05c18a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ContactUs\Presenter">
+      <UniqueIdentifier>{03ce677e-5d7c-4972-8525-9deade5d92d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ContactUs\View">
+      <UniqueIdentifier>{59b00557-5eae-470b-bd1d-0efc0c996d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ContactUs\Wireframe">
+      <UniqueIdentifier>{8a28c2e1-4cea-44ea-aa5e-f8634f3bbd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Location">
+      <UniqueIdentifier>{48afbf48-bf04-494d-98a1-05b51d728877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Location\Interactor">
+      <UniqueIdentifier>{f6628ed4-43f9-449d-94a9-2e8dac8d93c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Location\Presenter">
+      <UniqueIdentifier>{51c34ed9-b78b-49c7-9742-a6f5b02159cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Location\View">
+      <UniqueIdentifier>{13abd75e-b32c-4373-8160-009fae366ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Location\Wireframe">
+      <UniqueIdentifier>{857f91f1-f961-4cf8-b5d3-c471642fa7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Login">
+      <UniqueIdentifier>{97f7d34b-7fa3-4794-b002-f3df6fdd8ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Login\Interactor">
+      <UniqueIdentifier>{d23064ba-03ca-4e9e-8a58-eeffa49e64ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Login\Presenter">
+      <UniqueIdentifier>{1a80e7d9-1c7f-4e3a-a9ba-998a752f8bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Login\View">
+      <UniqueIdentifier>{c891dd72-0b7f-4f11-94cd-7f4bc34464c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Login\Wireframe">
+      <UniqueIdentifier>{c1f7d9f1-7f4d-420d-80d8-1bd52fda6d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductResponse">
+      <UniqueIdentifier>{5a8c8fa8-e3a4-4ade-a861-e5ad7fe5d99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductResponse\Interactor">
+      <UniqueIdentifier>{ffdbf716-de9f-42f0-9f30-e5eba2a87435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductResponse\Presenter">
+      <UniqueIdentifier>{36164eee-3fdb-4dc8-8166-579a955b8797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductResponse\View">
+      <UniqueIdentifier>{2c19de5f-b6df-478d-ab3b-cde631d4945a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductResponse\Wireframe">
+      <UniqueIdentifier>{2cbac21d-3146-44c4-b68a-42a7841a1a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductScan">
+      <UniqueIdentifier>{15336fbb-7f43-4d5c-a418-bc58d381454c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductScan\Interactor">
+      <UniqueIdentifier>{1123e71c-6853-4058-9abe-94bee37af837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductScan\Presenter">
+      <UniqueIdentifier>{8353617a-38ae-404c-973e-4d5d25253dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductScan\View">
+      <UniqueIdentifier>{2eee2d43-6fdd-419d-9e5c-bf78fd0f02a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\ProductScan\Wireframe">
+      <UniqueIdentifier>{826e984d-29d7-420c-8518-e690e8b28802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Welcome">
+      <UniqueIdentifier>{bdd7b13e-6149-47d8-b0ba-bbdef3a41282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Welcome\Interactor">
+      <UniqueIdentifier>{e28b47be-a4f6-46fb-b26f-3f6f483b841a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Welcome\Presenter">
+      <UniqueIdentifier>{e810f01d-fd5b-4792-a8e5-214768073335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Welcome\View">
+      <UniqueIdentifier>{2d2f3ba7-6c1a-405f-9ff7-404670339c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Classes\Modules\Welcome\Wireframe">
+      <UniqueIdentifier>{b2ecc4aa-a520-4d34-bca0-c25efb2c0ef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-167@2.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-60@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-60@3x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-72.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-72@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-76.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-76@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-1.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40@3x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-41.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-50.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-50@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@1.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@2x-1.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@2x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@3x-1.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@3x.png">
+      <Filter>App\Assets.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\Contents.json">
+      <Filter>App\Assets.xcassets</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\disclosureIndicator.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator.png">
+      <Filter>App\Assets.xcassets\disclosureIndicator.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator@2x.png">
+      <Filter>App\Assets.xcassets\disclosureIndicator.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator@3x.png">
+      <Filter>App\Assets.xcassets\disclosureIndicator.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\iconAccount.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount.png">
+      <Filter>App\Assets.xcassets\iconAccount.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount@2x.png">
+      <Filter>App\Assets.xcassets\iconAccount.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount@3x.png">
+      <Filter>App\Assets.xcassets\iconAccount.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconCross.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\iconCross.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross.png">
+      <Filter>App\Assets.xcassets\iconCross.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross@2x.png">
+      <Filter>App\Assets.xcassets\iconCross.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross@3x.png">
+      <Filter>App\Assets.xcassets\iconCross.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconPin.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\iconPin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin.png">
+      <Filter>App\Assets.xcassets\iconPin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin@2x.png">
+      <Filter>App\Assets.xcassets\iconPin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin@3x.png">
+      <Filter>App\Assets.xcassets\iconPin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconTick.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\iconTick.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick.png">
+      <Filter>App\Assets.xcassets\iconTick.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick@2x.png">
+      <Filter>App\Assets.xcassets\iconTick.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick@3x.png">
+      <Filter>App\Assets.xcassets\iconTick.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\pin.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\pin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\pin.imageset\pin.png">
+      <Filter>App\Assets.xcassets\pin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\pin.imageset\pin@2x.png">
+      <Filter>App\Assets.xcassets\pin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\pin.imageset\pin@3x.png">
+      <Filter>App\Assets.xcassets\pin.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\Contents.json">
+      <Filter>App\Assets.xcassets\productProtectLogo.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo.png">
+      <Filter>App\Assets.xcassets\productProtectLogo.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo@2x.png">
+      <Filter>App\Assets.xcassets\productProtectLogo.imageset</Filter>
+    </Content>
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo@3x.png">
+      <Filter>App\Assets.xcassets\productProtectLogo.imageset</Filter>
+    </Content>
+    <Content Include="App\Classes\Common\Views\LoadingView.xib">
+      <Filter>App\Classes\Common\Views</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableHeaderView.xib">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableViewCell.xib">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\LogoutTableFooterView.xib">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Common\Base\View\EmptyView.xib">
+      <Filter>App\Classes\Modules\Common\Base\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Common\Paging\View\PagingLoadingView.xib">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Common\Paging\View\PagingStaleDataView.xib">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTableFooterView.xib">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTextFieldTableViewCell.xib">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTextViewTableViewCell.xib">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsView.xib">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Location\View\LocationView.xib">
+      <Filter>App\Classes\Modules\Location\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Login\View\LoginView.xib">
+      <Filter>App\Classes\Modules\Login\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ProductResponse\View\ProductResponseView.xib">
+      <Filter>App\Classes\Modules\ProductResponse\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ProductScan\View\ProductInformationView.xib">
+      <Filter>App\Classes\Modules\ProductScan\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\ProductScan\View\ProductScanView.xib">
+      <Filter>App\Classes\Modules\ProductScan\View</Filter>
+    </Content>
+    <Content Include="App\Classes\Modules\Welcome\View\WelcomeView.xib">
+      <Filter>App\Classes\Modules\Welcome\View</Filter>
+    </Content>
+    <Content Include="App\LaunchScreen.xib">
+      <Filter>App</Filter>
+    </Content>
+    <InfoPlist Include="App\Info.plist">
+      <Filter>App</Filter>
+    </InfoPlist>
+    <PBXCompile Include="App\Classes\AppDelegate.swift">
+      <Filter>App\Classes</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\AppDependencies.swift">
+      <Filter>App\Classes</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\NSIndexPath.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\NSObject.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\UIApplication.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\UICollectionView.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\UITableView.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\UIView.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Extensions\UIViewController.swift">
+      <Filter>App\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\Appearance.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\Font.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\LocationManager.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\Log.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\PermissionManager.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\RootViewControllerManager.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Utils\SettingManager.swift">
+      <Filter>App\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Views\BorderedView.swift">
+      <Filter>App\Classes\Common\Views</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Views\LoadingView.swift">
+      <Filter>App\Classes\Common\Views</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Common\Wireframes\RootWireframe.swift">
+      <Filter>App\Classes\Common\Wireframes</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\AccountSettingsListInterfaces.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Interactor\AccountSettingsDataItem.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Interactor\AccountSettingsListInteractor.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Presenter\AccountSettingsDataDisplayItem.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Presenter\AccountSettingsListPresenter.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableHeaderView.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableViewCell.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListViewController.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\LogoutTableFooterView.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Wireframe\AccountSettingsListWireframe.swift">
+      <Filter>App\Classes\Modules\AccountSettingsList\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Account\AccountInterfaces.swift">
+      <Filter>App\Classes\Modules\Account</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Account\Presenter\AccountDisplayDataItem.swift">
+      <Filter>App\Classes\Modules\Account\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Account\Presenter\AccountPresenter.swift">
+      <Filter>App\Classes\Modules\Account\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Account\View\AccountViewController.swift">
+      <Filter>App\Classes\Modules\Account\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Account\Wireframe\AccountWireframe.swift">
+      <Filter>App\Classes\Modules\Account\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Base\View\EmptyView.swift">
+      <Filter>App\Classes\Modules\Common\Base\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Base\View\ViewController.swift">
+      <Filter>App\Classes\Modules\Common\Base\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\Interactor\PagingInteractor.swift">
+      <Filter>App\Classes\Modules\Common\Paging\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\PagingInterfaces.swift">
+      <Filter>App\Classes\Modules\Common\Paging</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\Presenter\PagingPresenter.swift">
+      <Filter>App\Classes\Modules\Common\Paging\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingCollectionViewController.swift">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingLoadingView.swift">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingStaleDataView.swift">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingTableViewController.swift">
+      <Filter>App\Classes\Modules\Common\Paging\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\Presenter\SectionItemDisplayDataCollection.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\Presenter\SectionItemPresenter.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\SectionItemInterfaces.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewController.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewDataSource.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewDelegate.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewController.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewDataSource.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewDelegate.swift">
+      <Filter>App\Classes\Modules\Common\SectionItem\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\ContactUsInterfaces.swift">
+      <Filter>App\Classes\Modules\ContactUs</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Interactor\ContactUsDataItem.swift">
+      <Filter>App\Classes\Modules\ContactUs\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Interactor\ContactUsInteractor.swift">
+      <Filter>App\Classes\Modules\ContactUs\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsDisplayDataItem.swift">
+      <Filter>App\Classes\Modules\ContactUs\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsFormDisplayDataItem.swift">
+      <Filter>App\Classes\Modules\ContactUs\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsPresenter.swift">
+      <Filter>App\Classes\Modules\ContactUs\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableFooterView.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableViewDataSource.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableViewDelegate.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTextFieldTableViewCell.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTextViewTableViewCell.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsViewController.swift">
+      <Filter>App\Classes\Modules\ContactUs\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Wireframe\ContactUsWireframe.swift">
+      <Filter>App\Classes\Modules\ContactUs\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Location\Interactor\LocationInteractor.swift">
+      <Filter>App\Classes\Modules\Location\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Location\LocationInterfaces.swift">
+      <Filter>App\Classes\Modules\Location</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Location\Presenter\LocationPresenter.swift">
+      <Filter>App\Classes\Modules\Location\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Location\View\LocationViewController.swift">
+      <Filter>App\Classes\Modules\Location\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Location\Wireframe\LocationWireframe.swift">
+      <Filter>App\Classes\Modules\Location\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Login\Interactor\LoginInteractor.swift">
+      <Filter>App\Classes\Modules\Login\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Login\LoginInterfaces.swift">
+      <Filter>App\Classes\Modules\Login</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Login\Presenter\LoginPresenter.swift">
+      <Filter>App\Classes\Modules\Login\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Login\View\LoginViewController.swift">
+      <Filter>App\Classes\Modules\Login\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Login\Wireframe\LoginWireframe.swift">
+      <Filter>App\Classes\Modules\Login\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Interactor\ProductResponseInteractor.swift">
+      <Filter>App\Classes\Modules\ProductResponse\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Presenter\ProductResponsePresenter.swift">
+      <Filter>App\Classes\Modules\ProductResponse\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\ProductResponseInterfaces.swift">
+      <Filter>App\Classes\Modules\ProductResponse</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\View\ProductResponseViewController.swift">
+      <Filter>App\Classes\Modules\ProductResponse\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Wireframe\ProductResponseWireframe.swift">
+      <Filter>App\Classes\Modules\ProductResponse\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\MovementDataItem.swift">
+      <Filter>App\Classes\Modules\ProductScan\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductDataItem.swift">
+      <Filter>App\Classes\Modules\ProductScan\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductScanData.swift">
+      <Filter>App\Classes\Modules\ProductScan\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductScanInteractor.swift">
+      <Filter>App\Classes\Modules\ProductScan\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Presenter\ProductResponseDisplayData.swift">
+      <Filter>App\Classes\Modules\ProductResponse\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Presenter\ProductScanPresenter.swift">
+      <Filter>App\Classes\Modules\ProductScan\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\ProductScanInterfaces.swift">
+      <Filter>App\Classes\Modules\ProductScan</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductDisplayDataItem.swift">
+      <Filter>App\Classes\Modules\ProductScan\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductInformationViewController.swift">
+      <Filter>App\Classes\Modules\ProductScan\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductScanViewController.swift">
+      <Filter>App\Classes\Modules\ProductScan\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Wireframe\ProductScanWireframe.swift">
+      <Filter>App\Classes\Modules\ProductScan\Wireframe</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Welcome\Interactor\WelcomeInteractor.swift">
+      <Filter>App\Classes\Modules\Welcome\Interactor</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Welcome\Presenter\WelcomePresenter.swift">
+      <Filter>App\Classes\Modules\Welcome\Presenter</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Welcome\View\WelcomeViewController.swift">
+      <Filter>App\Classes\Modules\Welcome\View</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Welcome\WelcomeInterfaces.swift">
+      <Filter>App\Classes\Modules\Welcome</Filter>
+    </PBXCompile>
+    <PBXCompile Include="App\Classes\Modules\Welcome\Wireframe\WelcomeWireframe.swift">
+      <Filter>App\Classes\Modules\Welcome\Wireframe</Filter>
+    </PBXCompile>
+  </ItemGroup>
+</Project>

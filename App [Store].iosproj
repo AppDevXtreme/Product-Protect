@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{4C98CBE8-C159-41C2-B325-99832654A7CB}</ProjectGuid>
+    <PbxprojDirectory>App [Store].xcodeproj</PbxprojDirectory>
+    <TARGET_NAME>App [Store]</TARGET_NAME>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <iOSConfigurationType>Application</iOSConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>AppStore</TargetName>
+    <TargetExt>.app</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-167@2.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-60@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-60@3x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-72.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-72@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-76@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-1.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-40@3x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-41.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-50.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small-50@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@1.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@2x-1.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@2x.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@3x-1.png" />
+    <Content Include="App\Assets.xcassets\AppIcon.appiconset\Icon-Small@3x.png" />
+    <Content Include="App\Assets.xcassets\Contents.json" />
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator.png" />
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator@2x.png" />
+    <Content Include="App\Assets.xcassets\disclosureIndicator.imageset\disclosureIndicator@3x.png" />
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount.png" />
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount@2x.png" />
+    <Content Include="App\Assets.xcassets\iconAccount.imageset\iconAccount@3x.png" />
+    <Content Include="App\Assets.xcassets\iconCross.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross.png" />
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross@2x.png" />
+    <Content Include="App\Assets.xcassets\iconCross.imageset\iconCross@3x.png" />
+    <Content Include="App\Assets.xcassets\iconPin.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin.png" />
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin@2x.png" />
+    <Content Include="App\Assets.xcassets\iconPin.imageset\iconPin@3x.png" />
+    <Content Include="App\Assets.xcassets\iconTick.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick.png" />
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick@2x.png" />
+    <Content Include="App\Assets.xcassets\iconTick.imageset\iconTick@3x.png" />
+    <Content Include="App\Assets.xcassets\pin.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\pin.imageset\pin.png" />
+    <Content Include="App\Assets.xcassets\pin.imageset\pin@2x.png" />
+    <Content Include="App\Assets.xcassets\pin.imageset\pin@3x.png" />
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\Contents.json" />
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo.png" />
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo@2x.png" />
+    <Content Include="App\Assets.xcassets\productProtectLogo.imageset\productProtectLogo@3x.png" />
+    <Content Include="App\Classes\Common\Views\LoadingView.xib" />
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableHeaderView.xib" />
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableViewCell.xib" />
+    <Content Include="App\Classes\Modules\AccountSettingsList\View\LogoutTableFooterView.xib" />
+    <Content Include="App\Classes\Modules\Common\Base\View\EmptyView.xib" />
+    <Content Include="App\Classes\Modules\Common\Paging\View\PagingLoadingView.xib" />
+    <Content Include="App\Classes\Modules\Common\Paging\View\PagingStaleDataView.xib" />
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTableFooterView.xib" />
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTextFieldTableViewCell.xib" />
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsTextViewTableViewCell.xib" />
+    <Content Include="App\Classes\Modules\ContactUs\View\ContactUsView.xib" />
+    <Content Include="App\Classes\Modules\Location\View\LocationView.xib" />
+    <Content Include="App\Classes\Modules\Login\View\LoginView.xib" />
+    <Content Include="App\Classes\Modules\ProductResponse\View\ProductResponseView.xib" />
+    <Content Include="App\Classes\Modules\ProductScan\View\ProductInformationView.xib" />
+    <Content Include="App\Classes\Modules\ProductScan\View\ProductScanView.xib" />
+    <Content Include="App\Classes\Modules\Welcome\View\WelcomeView.xib" />
+    <Content Include="App\LaunchScreen.xib" />
+    <InfoPlist Include="App\Info.plist" />
+    <PBXCompile Include="App\Classes\AppDelegate.swift" />
+    <PBXCompile Include="App\Classes\AppDependencies.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\NSIndexPath.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\NSObject.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\UIApplication.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\UICollectionView.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\UITableView.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\UIView.swift" />
+    <PBXCompile Include="App\Classes\Common\Extensions\UIViewController.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\Appearance.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\Font.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\LocationManager.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\Log.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\PermissionManager.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\RootViewControllerManager.swift" />
+    <PBXCompile Include="App\Classes\Common\Utils\SettingManager.swift" />
+    <PBXCompile Include="App\Classes\Common\Views\BorderedView.swift" />
+    <PBXCompile Include="App\Classes\Common\Views\LoadingView.swift" />
+    <PBXCompile Include="App\Classes\Common\Wireframes\RootWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\AccountSettingsListInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Interactor\AccountSettingsDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Interactor\AccountSettingsListInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Presenter\AccountSettingsDataDisplayItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Presenter\AccountSettingsListPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableHeaderView.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListTableViewCell.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\AccountSettingsListViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\View\LogoutTableFooterView.swift" />
+    <PBXCompile Include="App\Classes\Modules\AccountSettingsList\Wireframe\AccountSettingsListWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\Account\AccountInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Account\Presenter\AccountDisplayDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\Account\Presenter\AccountPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Account\View\AccountViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Account\Wireframe\AccountWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Base\View\EmptyView.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Base\View\ViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\Interactor\PagingInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\PagingInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\Presenter\PagingPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingCollectionViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingLoadingView.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingStaleDataView.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\Paging\View\PagingTableViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\Presenter\SectionItemDisplayDataCollection.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\Presenter\SectionItemPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\SectionItemInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewDataSource.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\CollectionViewDelegate.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewDataSource.swift" />
+    <PBXCompile Include="App\Classes\Modules\Common\SectionItem\View\TableViewDelegate.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\ContactUsInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Interactor\ContactUsDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Interactor\ContactUsInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsDisplayDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsFormDisplayDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Presenter\ContactUsPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableFooterView.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableViewDataSource.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTableViewDelegate.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTextFieldTableViewCell.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsTextViewTableViewCell.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\View\ContactUsViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\ContactUs\Wireframe\ContactUsWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\Location\Interactor\LocationInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\Location\LocationInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Location\Presenter\LocationPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Location\View\LocationViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Location\Wireframe\LocationWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\Login\Interactor\LoginInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\Login\LoginInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Login\Presenter\LoginPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Login\View\LoginViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Login\Wireframe\LoginWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Interactor\ProductResponseInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Presenter\ProductResponsePresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\ProductResponseInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\View\ProductResponseViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductResponse\Wireframe\ProductResponseWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\MovementDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductScanData.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Interactor\ProductScanInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Presenter\ProductResponseDisplayData.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Presenter\ProductScanPresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\ProductScanInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductDisplayDataItem.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductInformationViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\View\ProductScanViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\ProductScan\Wireframe\ProductScanWireframe.swift" />
+    <PBXCompile Include="App\Classes\Modules\Welcome\Interactor\WelcomeInteractor.swift" />
+    <PBXCompile Include="App\Classes\Modules\Welcome\Presenter\WelcomePresenter.swift" />
+    <PBXCompile Include="App\Classes\Modules\Welcome\View\WelcomeViewController.swift" />
+    <PBXCompile Include="App\Classes\Modules\Welcome\WelcomeInterfaces.swift" />
+    <PBXCompile Include="App\Classes\Modules\Welcome\Wireframe\WelcomeWireframe.swift" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <FrameworkReference Include="System\Library\Frameworks\CoreLocation.framework">
+      <SourceTree>SDKROOT</SourceTree>
+    </FrameworkReference>
+  </ItemGroup>
+  <ItemGroup>
+    <pbxproj Include="App [Store].xcodeproj\project.pbxproj" />
+  </ItemGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

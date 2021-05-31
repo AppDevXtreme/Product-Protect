@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pods">
+      <UniqueIdentifier>{96894e20-7aad-4a53-a974-9ea3976f65a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{40ad242b-8f32-4514-b94b-c86259586bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests">
+      <UniqueIdentifier>{d5e42db3-c899-457f-9c07-a5e39a8d506d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes">
+      <UniqueIdentifier>{879a948f-4041-496d-af50-9d11ebffcf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Common">
+      <UniqueIdentifier>{0eb90ef7-6753-425e-b100-6a3e5033a813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Common\Extensions">
+      <UniqueIdentifier>{06c2f02d-2aec-4f66-bf26-2e8f4bc6d13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Modules">
+      <UniqueIdentifier>{fc874773-fd3a-4b07-ab7f-3f0e0b39b10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Modules\Common">
+      <UniqueIdentifier>{af3eaa0a-7a79-47d8-8415-6f49acc48d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Modules\Common\Paging">
+      <UniqueIdentifier>{97337943-4df8-41e5-8870-2f1a498ad14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\AppTests\Classes\Modules\Common\SectionItem">
+      <UniqueIdentifier>{2a1756a3-731f-4604-9b0e-9be812c9e32f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <InfoPlist Include="AppTests\Info.plist">
+      <Filter>Tests\AppTests</Filter>
+    </InfoPlist>
+    <None Include="Pods\Target Support Files\Pods-AppTests\Pods-AppTests.debug.xcconfig">
+      <Filter>Pods</Filter>
+    </None>
+    <None Include="Pods\Target Support Files\Pods-AppTests\Pods-AppTests.release.xcconfig">
+      <Filter>Pods</Filter>
+    </None>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\NSIndexPathTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\NSObjectTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\UICollectionViewTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\UITableViewTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\UIViewControllerTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Common\Extensions\UIViewTests.swift">
+      <Filter>Tests\AppTests\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Modules\Common\Paging\PagingInteractorTests.swift">
+      <Filter>Tests\AppTests\Classes\Modules\Common\Paging</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Modules\Common\Paging\PagingPresenterTests.swift">
+      <Filter>Tests\AppTests\Classes\Modules\Common\Paging</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Modules\Common\SectionItem\SectionItemDisplayDataCollectionTests.swift">
+      <Filter>Tests\AppTests\Classes\Modules\Common\SectionItem</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppTests\Classes\Modules\Common\SectionItem\SectionItemPresenterTests.swift">
+      <Filter>Tests\AppTests\Classes\Modules\Common\SectionItem</Filter>
+    </PBXCompile>
+  </ItemGroup>
+</Project>

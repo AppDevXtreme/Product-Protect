@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{AE7CF38D-29E5-4BDC-A6A6-B6E557F0F3C9}</ProjectGuid>
+    <PbxprojDirectory>AppCommon.xcodeproj</PbxprojDirectory>
+    <TARGET_NAME>AppCommon</TARGET_NAME>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <iOSConfigurationType>Other</iOSConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="Configuration">
+    <UseOfStl>libc++</UseOfStl>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'" Label="UserMacros">
+    <ENABLE_TESTABILITY>YES</ENABLE_TESTABILITY>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'" Label="UserMacros">
+    <PRODUCT_BUNDLE_IDENTIFIER>com.productprotect.app</PRODUCT_BUNDLE_IDENTIFIER>
+    <PRODUCT_BUNDLE_IDENTIFIER>com.xdesign.SwiftAppCommon</PRODUCT_BUNDLE_IDENTIFIER>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>AppCommon</TargetName>
+    <TargetExt>.framework</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <VC_Reference_XCConfig>vcreference.xcconfig</VC_Reference_XCConfig>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebug</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>"DEBUG=1";"$(inherited)";</PreprocessorDefinitions>
+      <GenerateDebugSymbols>true</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ObjCAutomaticRefCounting>true</ObjCAutomaticRefCounting>
+      <DebugInformationFormat>FullDebugWithDsym</DebugInformationFormat>
+      <CLanguageStandard>gnu99</CLanguageStandard>
+      <NoCommonBlocks>true</NoCommonBlocks>
+      <GenerateDebugSymbols>false</GenerateDebugSymbols>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AppCommon\AppCommon.h" />
+    <Content Include="AppCommon\AppCommon.Podspec" />
+    <InfoPlist Include="AppCommon\Info.plist" />
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\AccountDataManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\BaseDataManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\ExampleDataManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\MovementDataManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\ProductDataManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Extensions\Array.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Extensions\NSRange.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Account.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\BaseModel.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\ErrorMessage.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Example.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\LoginResponse.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Movement.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Product.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedAccount.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedBaseModel.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedExample.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\ManagedMovement.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\ManagedProduct.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Store\RealmStore.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Abstract.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Color.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\HTTPManager.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Log.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\NetworkPaginator.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Paginator.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\AccountWebService.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\BaseWebService.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ContactUsWebService.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ExampleWebService.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\MovementWebService.swift" />
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ProductWebService.swift" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <pbxproj Include="AppCommon.xcodeproj\project.pbxproj" />
+  </ItemGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

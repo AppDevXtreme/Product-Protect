@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AppCommon">
+      <UniqueIdentifier>{9386d386-c998-4883-a886-263017b7ccc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes">
+      <UniqueIdentifier>{e728fa6c-01bf-4994-807c-06d5b2797f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common">
+      <UniqueIdentifier>{ab495e81-6be9-4a0d-b70d-417a573f8260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\DataManagers">
+      <UniqueIdentifier>{f53bd021-724a-43be-afd6-79fe36f8b2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\Extensions">
+      <UniqueIdentifier>{af593641-e841-4051-820c-09894ac6dbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\Models">
+      <UniqueIdentifier>{9c27b2fa-a69e-4768-8a2b-9803c21557b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\Store">
+      <UniqueIdentifier>{db4ca6e8-c598-4b2d-bd09-6766a452e0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\Store\Entities">
+      <UniqueIdentifier>{cbed6ba3-3b06-444e-933f-7555ce8177b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\Utils">
+      <UniqueIdentifier>{dd9660fe-8dba-4b07-b0a2-f449fcb5a860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon\Classes\Common\WebServices">
+      <UniqueIdentifier>{86f5ea3e-6da6-48e3-8b4b-9504362756c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppCommon\AppCommon.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <Content Include="AppCommon\AppCommon.Podspec">
+      <Filter>AppCommon</Filter>
+    </Content>
+    <InfoPlist Include="AppCommon\Info.plist">
+      <Filter>AppCommon</Filter>
+    </InfoPlist>
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\AccountDataManager.swift">
+      <Filter>AppCommon\Classes\Common\DataManagers</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\BaseDataManager.swift">
+      <Filter>AppCommon\Classes\Common\DataManagers</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\ExampleDataManager.swift">
+      <Filter>AppCommon\Classes\Common\DataManagers</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\MovementDataManager.swift">
+      <Filter>AppCommon\Classes\Common\DataManagers</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\DataManagers\ProductDataManager.swift">
+      <Filter>AppCommon\Classes\Common\DataManagers</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Extensions\Array.swift">
+      <Filter>AppCommon\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Extensions\NSRange.swift">
+      <Filter>AppCommon\Classes\Common\Extensions</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Account.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\BaseModel.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\ErrorMessage.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Example.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\LoginResponse.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Movement.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Models\Product.swift">
+      <Filter>AppCommon\Classes\Common\Models</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedAccount.swift">
+      <Filter>AppCommon\Classes\Common\Store\Entities</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedBaseModel.swift">
+      <Filter>AppCommon\Classes\Common\Store\Entities</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\Entities\ManagedExample.swift">
+      <Filter>AppCommon\Classes\Common\Store\Entities</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\ManagedMovement.swift">
+      <Filter>AppCommon\Classes\Common\Store\Entities</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\ManagedProduct.swift">
+      <Filter>AppCommon\Classes\Common\Store\Entities</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Store\RealmStore.swift">
+      <Filter>AppCommon\Classes\Common\Store</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Abstract.swift">
+      <Filter>AppCommon\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Color.swift">
+      <Filter>AppCommon\Classes\Common\Store</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\HTTPManager.swift">
+      <Filter>AppCommon\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Log.swift">
+      <Filter>AppCommon\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\NetworkPaginator.swift">
+      <Filter>AppCommon\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\Utils\Paginator.swift">
+      <Filter>AppCommon\Classes\Common\Utils</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\AccountWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\BaseWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ContactUsWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ExampleWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\MovementWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+    <PBXCompile Include="AppCommon\Classes\Common\WebServices\ProductWebService.swift">
+      <Filter>AppCommon\Classes\Common\WebServices</Filter>
+    </PBXCompile>
+  </ItemGroup>
+</Project>
